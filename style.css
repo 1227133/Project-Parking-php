@@ -1,0 +1,44 @@
+.h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight:bold;
+    color: #d9534f !important;
+    text-align:center;
+    font-style:italic;
+    font-size:50px;
+
+}
+
+.text {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.fBorder {
+    border-top: 1px solid black;
+}
+
+.i {
+    color:#d9534f;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e8e8e8;
+}
+
+.content {
+    flex: 1;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    clear: both;
+}
+#divForm {
+    margin-bottom: 100px;
+}
